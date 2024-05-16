@@ -6378,7 +6378,7 @@ LoadEnemyMon:
 	ld [de], a
 	inc de
 
-	ld a, [wBaseExp]
+	ld a, 0
 	ld [de], a
 
 	ld a, [wTempEnemyMonSpecies]
@@ -7065,7 +7065,7 @@ GiveExperiencePoints:
 	pop bc
 	ld hl, MON_LEVEL
 	add hl, bc
-	ld a, [wLevelCap]
+	ld a, 0
 	push bc
 	ld b, a
 	ld a, [hl]
