@@ -30,6 +30,7 @@ Red:
 	special FadeInFromBlack
 	pause 30
 	special HealParty
+	loadmem wLevelCap, 100
 	reanchormap
 	credits
 	end

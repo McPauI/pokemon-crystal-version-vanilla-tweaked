@@ -50,6 +50,7 @@ GoldenrodGymWhitneyScript:
 .StoppedCrying:
 	checkevent EVENT_GOT_TM45_ATTRACT
 	iftrue .GotAttract
+	loadmem wLevelCap, 25
 	checkflag ENGINE_PLAINBADGE
 	iftrue .GotPlainBadge
 	writetext WhitneyWhatDoYouWantText

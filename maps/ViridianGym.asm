@@ -31,6 +31,7 @@ ViridianGymBlueScript:
 	end
 
 .FightDone:
+	loadmem wLevelCap, 80
 	writetext LeaderBlueEpilogueText
 	waitbutton
 	closetext

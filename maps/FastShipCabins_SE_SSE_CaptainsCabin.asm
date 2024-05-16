@@ -100,6 +100,7 @@ SSAquaMetalCoatAndDocking:
 	promptbutton
 	verbosegiveitem METAL_COAT
 	iffalse .NoRoom
+	loadmem wLevelCap, 55
 	setevent EVENT_GOT_METAL_COAT_FROM_GRANDPA_ON_SS_AQUA
 .NoRoom:
 	closetext
