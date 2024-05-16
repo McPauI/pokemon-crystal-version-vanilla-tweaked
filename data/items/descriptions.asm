@@ -479,8 +479,8 @@ TeruSama5Desc:
 	db   "?@"
 
 ExpShareDesc:
-	db   "Shares battle EXP."
-	next "Points. (HOLD)@"
+	db   "Shares battle stat"
+	next "EXP.@"
 
 OldRodDesc:
 	db   "Use by water to"
@@ -747,8 +747,8 @@ HardStoneDesc:
 	next "type moves. (HOLD)@"
 
 LuckyEggDesc:
-	db   "Earns extra EXP."
-	next "points. (HOLD)@"
+	db   "Full of happiness."
+	next "Sell very high.@"
 
 CardKeyDesc:
 	db   "Opens shutters in"
